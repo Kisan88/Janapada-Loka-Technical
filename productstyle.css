@@ -203,3 +203,15 @@ body{
 .cart .remove{
     display: inline-block!important;
 }
+
+@media (min-width:1600px) {
+    .center .list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .center .list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
